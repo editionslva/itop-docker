@@ -1,4 +1,4 @@
-FROM vbkunin/itop:2.7.2-base
+FROM editionslva/itop:2.7.2-base
 MAINTAINER Vladimir Kunin <vladimir@knowitop.ru>
 
 RUN apt-get update && apt-get install -y software-properties-common \
